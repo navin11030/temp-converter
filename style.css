@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007BFF; /* Changed to blue */
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+.container {
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 0 10px;
+    padding: 10px;
+    width: 100px;
+    background-color: #0056b3; /* Darker blue for input fields */
+    color: #fff; /* White text for input fields */
+    border: 1px solid #fff; /* White border for input fields */
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #0069d9; /* Button background in blue */
+    color: #fff; /* White text for buttons */
+    border: none; /* Remove default button border */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
